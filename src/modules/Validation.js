@@ -1,7 +1,7 @@
 'use strict';
-import FormlyExpressions from './FormlyExpressions';
-import Utils from './Utils';
-import {ValidationsConfig, AsyncValidationsConfig, MessagesConfig}  from './../formlyConfig';
+import FormlyExpressions from 'react-native-formly/src/modules/FormlyExpressions';
+import Utils from 'react-native-formly/src/modules/Utils';
+import {ValidationsConfig, AsyncValidationsConfig, MessagesConfig}  from 'react-native-formly/src/formlyConfig';
 
 export default class FieldValidator {
     constructor() {
@@ -225,7 +225,10 @@ class FieldValidations {
                     validation.expression = fieldConfig.validators[key].expression;
                 if (fieldConfig.validators[key].message)
                     validation.message = fieldConfig.validators[key].message;
-
+                // WIL ADD
+                if (fieldConfig.validators[key].param)
+                    validation.param = fieldConfig.validators[key].param;
+                
                 validators[key] = validation;
             };
         }
@@ -253,7 +256,9 @@ class FieldValidations {
 
     validateField(viewValue, modelValue, model, onValidationUpdate) {
         model = model || {};
-        let expressionContext = { "viewValue": viewValue, "modelValue": modelValue, "model": model, "param": undefined };
+        // WIL ADD
+        // let expressionContext = { "viewValue": viewValue, "modelValue": modelValue, "model": model, "param": undefined };
+        let expressionContext = { "viewValue": viewValue, "modelValue": modelValue, "model": model, "param": undefined, fieldConfig: this.fieldConfig };
 
         var validationResultObject = new ValidationObject();
 
