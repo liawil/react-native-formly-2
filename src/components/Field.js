@@ -6,10 +6,10 @@ import {
   Text
 } from 'react-native';
 import PropTypes from 'prop-types';
-import { FieldsConfig } from 'react-native-formly/src/formlyConfig';
-import FieldValidator from 'react-native-formly/src/modules/Validation';
-import FieldControllers from 'react-native-formly/src/modules/FormlyControllers';
-import Utils from 'react-native-formly/src/modules/Utils';
+import { FieldsConfig } from 'react-native-formly-2/src/formlyConfig';
+import FieldValidator from 'react-native-formly-2/src/modules/Validation';
+import FieldControllers from 'react-native-formly-2/src/modules/FormlyControllers';
+import Utils from 'react-native-formly-2/src/modules/Utils';
 
 
 

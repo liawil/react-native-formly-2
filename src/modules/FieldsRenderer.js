@@ -1,11 +1,11 @@
 'use strict';
 import React, { Component } from 'react';
-import { FieldsConfig, WrappersConfig } from 'react-native-formly/src/formlyConfig';
+import { FieldsConfig, WrappersConfig } from 'react-native-formly-2/src/formlyConfig';
 
-import FieldGroup from 'react-native-formly/src/components/FieldGroup';
-import Field from 'react-native-formly/src/components/Field';
-import FormlyExpressions from 'react-native-formly/src/modules/FormlyExpressions';
-import Utils from 'react-native-formly/src/modules/Utils';
+import FieldGroup from 'react-native-formly-2/src/components/FieldGroup';
+import Field from 'react-native-formly-2/src/components/Field';
+import FormlyExpressions from 'react-native-formly-2/src/modules/FormlyExpressions';
+import Utils from 'react-native-formly-2/src/modules/Utils';
 import {
   View,
   Text

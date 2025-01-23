@@ -1,6 +1,6 @@
 'use strict';
-import Utils from 'react-native-formly/src/modules/Utils';
-import {FieldsConfig, ControllersConfig} from 'react-native-formly/src/formlyConfig';
+import Utils from 'react-native-formly-2/src/modules/Utils';
+import {FieldsConfig, ControllersConfig} from 'react-native-formly-2/src/formlyConfig';
 
 //import {ControllersConfig}  from '../FormlyConfig';
 

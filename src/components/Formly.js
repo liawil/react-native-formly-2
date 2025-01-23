@@ -2,8 +2,8 @@
 
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import FieldsRenderer, { FormlyComponentProps } from 'react-native-formly/src/modules/FieldsRenderer';
-import Utils from 'react-native-formly/src/modules/Utils';
+import FieldsRenderer, { FormlyComponentProps } from 'react-native-formly-2/src/modules/FieldsRenderer';
+import Utils from 'react-native-formly-2/src/modules/Utils';
 
 import {
   View,

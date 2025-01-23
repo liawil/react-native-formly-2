@@ -183,6 +183,6 @@ Please check `CONTRIBUTING.md`.
 
 ### Credits
 * First Author - [Assem Hafez](https://github.com/Assem-Hafez)
-* Contributor - [Contributor](https://github.com/liawil)
+* Contributor - [Lia Wil](https://github.com/liawil)
 * This library was built at [Codelabsys](http://www.codelabsys.com/)
 * Special thanks for [Mohamed Abbas](https://github.com/Mohamed-Abbas) for helping out testing the library.
