@@ -1,4 +1,4 @@
-React-native-formly
+React-native-formly-2
 ===================
 
 Build your forms easily by adding custom components, validations, error messages. 
@@ -13,22 +13,22 @@ This is a react-native implementation for [Angular Formly](https://github.com/fo
 
 ## Installation
 ```
-npm install react-native-formly --save
+npm install react-native-formly-2 --save
 ```
 ## Usage
-<img src="https://github.com/Assem-Hafez/react-native-formly/blob/master/examples/FormlyDemo/app/md_template_example/preview.gif" width="400"/>
+<img src="https://github.com/liawil/react-native-formly-2/blob/master/examples/FormlyDemo/app/md_template_example/preview.gif" width="400"/>
 
 ### Basic Usage
 First you need to install our ready made template for material components. Then you can start building your awesome forms easily.
 
 ```
-npm install react-native-formly-templates-md --save
+npm install react-native-formly-2-templates-md --save
 ```
 
 ```js
 import React, { Component }  from 'react';
 import {ScrollView } from 'react-native';
-import { Formly} from 'react-native-formly';
+import { Formly} from 'react-native-formly-2';
 require('react-native-formly-templates-md');
 
 class MaterialForm  extends Component {
@@ -138,7 +138,7 @@ First you need to create react component and add `FieldMixin` to its `mixins`. T
 ```js
 import React from 'react';
 import createReactClass from 'create-react-class';
-import { FieldMixin } from 'react-native-formly';
+import { FieldMixin } from 'react-native-formly-2';
 import {
     View,
     Text,
@@ -169,7 +169,7 @@ module.exports = FormlyTextInput;
 Now you only need to register your component with `Formly` before using it.
 
 ```js
-import {Formly, FormlyConfig} from 'react-native-formly';
+import {Formly, FormlyConfig} from 'react-native-formly-2';
 let {FieldsConfig} = FormlyConfig;
 
 FieldsConfig.addType([
@@ -182,6 +182,7 @@ FieldsConfig.addType([
 Please check `CONTRIBUTING.md`.
 
 ### Credits
-* Author - [Assem Hafez](https://github.com/Assem-Hafez)
+* First Author - [Assem Hafez](https://github.com/Assem-Hafez)
+* Contributor - [Contributor](https://github.com/liawil)
 * This library was built at [Codelabsys](http://www.codelabsys.com/)
 * Special thanks for [Mohamed Abbas](https://github.com/Mohamed-Abbas) for helping out testing the library.
