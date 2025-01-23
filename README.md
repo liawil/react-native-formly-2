@@ -22,7 +22,7 @@ npm install react-native-formly-2 --save
 First you need to install our ready made template for material components. Then you can start building your awesome forms easily.
 
 ```
-npm install react-native-formly-2-templates-md --save
+npm install react-native-formly-templates-md --save
 ```
 
 ```js
